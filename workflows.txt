@@ -1,0 +1,23 @@
+Gathering Today's Seasonal Results
+    1. collectTopUsers(region);
+        Func: Returns all currently ranked users in that region and their information
+            region (string)
+                //"AM" = americas
+                //"EU" = europe
+                //"APAC" = apac
+    2. collectSeasonalResults(region, topPlayers);
+        Func: Indiviudally looks up each player and saves their most recent games
+            region (string)
+                //"AM" = americas
+                //"EU" = europe
+                //"APAC" = apac
+            topPlayers (int)
+                //10
+                //200
+                //topPlayers['players'].length (for all)
+    3. readSeasonalResults(region);
+        Func: Reads and formats each players games into W/L for use to display online
+            region (string)
+                //"AM" = americas
+                //"EU" = europe
+                //"APAC" = apac
