@@ -1,0 +1,62 @@
+Since there is a low amount of data and we want to keep costs low, avoid online DB entirely
+Store records for players in local storage in JSON and update as needed
+
+// Grab games and extract data
+// Update the players specific JSON file with updated information
+    // To avoid duplicate games being recorded, this can be done on a quick schedule
+
+// PROBLEMS:
+    // How to avoid having to call each individual player card each time a leadboard needs loaded
+    // Solution?: store a master file that includes everyone? This gets updated each 'loop' update is done on the player cards 
+
+// EXAMPLE
+data = {
+    owner: {
+        owner_comb: "Otzo NA1 Americas", //partition key
+
+        //player info
+        owner_name: "Otzo",
+        owner_tag: "NA1",
+        owner_puuid: "aoijhsdiohpjh...",
+        owner_region: "Americas",
+    },
+    game: {
+        //game info
+        game_start_time_utc: "2022-07-30:39:41.7704820+00:00",
+        game_mode: "Constructed", //bo3?
+        game_type: "Ranked", //seasonal?
+    },
+    deck_one: {
+        //deck 1
+        code: "aoisdjghoair...",
+        egion_one: "faction_Demacia_Name",
+        region_two: "faction_Shurima_Name",
+        wins: 1,
+        loses: 1,
+        win_percent: "50%"
+    },
+    deck_two: {
+        //deck 2
+        code: "aoisdjghoair...",
+        egion_one: "faction_Demacia_Name",
+        region_two: "faction_Shurima_Name",
+        wins: 1,
+        loses: 1,
+        win_percent: "50%"
+    },
+    deck_three: {
+        //deck 3
+        code: "aoisdjghoair...",
+        egion_one: "faction_Demacia_Name",
+        region_two: "faction_Shurima_Name",
+        wins: 1,
+        loses: 1,
+        win_percent: "50%"
+    },
+    match: {
+        //overall stats
+        match_wins: 1,
+        match_loses: 1,
+        match_percent: "50%"
+    }
+};

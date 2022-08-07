@@ -1,0 +1,468 @@
+[
+    {
+        "cardCode": "01IO015",
+        "name": "Yasuo",
+        "region": "Ionia"
+    },
+    {
+        "cardCode": "01IO041",
+        "name": "Karma",
+        "region": "Ionia"
+    },
+    {
+        "cardCode": "01IO009",
+        "name": "Zed",
+        "region": "Ionia"
+    },
+    {
+        "cardCode": "01IO032",
+        "name": "Shen",
+        "region": "Ionia"
+    },
+    {
+        "cardCode": "01NX020",
+        "name": "Draven",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "01NX006T1",
+        "name": "Vladimir",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "01NX038",
+        "name": "Darius",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "01NX042",
+        "name": "Katarina",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "01DE022",
+        "name": "Lucian",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "01DE042",
+        "name": "Lux",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "01DE012T1",
+        "name": "Garen",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "01DE045T1",
+        "name": "Fiora",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "01PZ040T1",
+        "name": "Jinx",
+        "region": "PiltoverZaun"
+    },
+    {
+        "cardCode": "01PZ008T2",
+        "name": "Teemo",
+        "region": "PiltoverZaun",
+        "regiontwo": "BandleCity"
+    },
+    {
+        "cardCode": "01PZ056",
+        "name": "Heimerdinger",
+        "region": "PiltoverZaun",
+        "regiontwo": "BandleCity"
+    },
+    {
+        "cardCode": "01PZ036",
+        "name": "Ezreal",
+        "region": "PiltoverZaun"
+    },
+    {
+        "cardCode": "01FR024",
+        "name": "Anivia",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "01FR039",
+        "name": "Tryndamere",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "01FR009",
+        "name": "Braum",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "01FR038",
+        "name": "Ashe",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "01SI053",
+        "name": "Elise",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "01SI042T1",
+        "name": "Hecarim",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "01SI030",
+        "name": "Kalista",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "01SI052",
+        "name": "Thresh",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "02PZ008",
+        "name": "Vi",
+        "region": "PiltoverZaun"
+    },
+    {
+        "cardCode": "02BW032",
+        "name": "Gangplank",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "02BW022T2",
+        "name": "Miss Fortune",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "02BW046",
+        "name": "Fizz",
+        "region": "Bilgewater",
+        "regiontwo": "BandleCity"
+    },
+    {
+        "cardCode": "02BW026",
+        "name": "Twisted Fate",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "02BW053",
+        "name": "Nautilus",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "02FR002",
+        "name": "Sejuani",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "02NX007",
+        "name": "Swain",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "02DE006",
+        "name": "Quinn",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "02SI008",
+        "name": "Maokai",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "02IO006",
+        "name": "Lee Sin",
+        "region": "Ionia"
+    },
+    {
+        "cardCode": "03NX007",
+        "name": "Riven",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "03BW004T3",
+        "name": "Tahm Kench",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "03MT217",
+        "name": "Aphelios",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "03MT056",
+        "name": "Diana",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "03MT055",
+        "name": "Soraka",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "03MT054T1",
+        "name": "Leona",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "03MT009",
+        "name": "Zoe",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "03MT087T1",
+        "name": "Aurelion Sol",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "03MT058T1",
+        "name": "Taric",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "03PZ003T1",
+        "name": "Viktor",
+        "region": "PiltoverZaun"
+    },
+    {
+        "cardCode": "03SI005",
+        "name": "Nocturne",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "03IO002",
+        "name": "Lulu",
+        "region": "Ionia",
+        "regiontwo": "BandleCity"
+    },
+    {
+        "cardCode": "03DE011",
+        "name": "Shyvana",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "03FR006",
+        "name": "Trundle",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "04PZ001T3",
+        "name": "Ekko",
+        "region": "PiltoverZaun"
+    },
+    {
+        "cardCode": "04BW005",
+        "name": "Pyke",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "04IO005T2",
+        "name": "Irelia",
+        "region": "Ionia"
+    },
+    {
+        "cardCode": "04SH019",
+        "name": "Rek'Sai",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04SH039",
+        "name": "Zilean",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04SH073T2",
+        "name": "Taliyah",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04SH003",
+        "name": "Azir",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04SH130",
+        "name": "Akshan",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04SH067T1",
+        "name": "Renekton",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04SH047",
+        "name": "Nasus",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04SH020T1",
+        "name": "Sivir",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "04FR005",
+        "name": "Lissandra",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "04NX004",
+        "name": "LeBlanc",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "04SI005",
+        "name": "Kindred",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "04SI055T2",
+        "name": "Viego",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "04MT008T1",
+        "name": "Malphite",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "04DE008",
+        "name": "Jarvan IV",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "05BC133T1",
+        "name": "Tristana",
+        "region": "BandleCity"
+    },
+    {
+        "cardCode": "05BC161",
+        "name": "Gnar",
+        "region": "BandleCity",
+        "regiontwo": "Freljord"
+    },
+    {
+        "cardCode": "05BC029T3",
+        "name": "Yuumi",
+        "region": "BandleCity",
+        "regiontwo": "Targon"
+    },
+    {
+        "cardCode": "05BC093",
+        "name": "Veigar",
+        "region": "BandleCity",
+        "regiontwo": "ShadowIsles"
+    },
+    {
+        "cardCode": "05BC088",
+        "name": "Rumble",
+        "region": "BandleCity",
+        "regiontwo": "Noxus"
+    },
+    {
+        "cardCode": "05BC058T2",
+        "name": "Kennen",
+        "region": "BandleCity",
+        "regiontwo": "Ionia"
+    },
+    {
+        "cardCode": "05BC163",
+        "name": "Ziggs",
+        "region": "BandleCity",
+        "regiontwo": "Shurima"
+    },
+    {
+        "cardCode": "05BC041T1",
+        "name": "Poppy",
+        "region": "BandleCity",
+        "regiontwo": "Demacia"
+    },
+    {
+        "cardCode": "05FR013",
+        "name": "Udyr",
+        "region": "Freljord"
+    },
+    {
+        "cardCode": "05IO004",
+        "name": "Ahri",
+        "region": "Ionia"
+    },
+    {
+        "cardCode": "05SH014",
+        "name": "Xerath",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "05NX001T1",
+        "name": "Sion Returned",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "05BW005T1",
+        "name": "Nami",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "05PZ022",
+        "name": "Jayce",
+        "region": "PiltoverZaun"
+    },
+    {
+        "cardCode": "05PZ006",
+        "name": "Caitlyn",
+        "region": "PiltoverZaun"
+    },
+    {
+        "cardCode": "05SI009T1",
+        "name": "Senna",
+        "region": "ShadowIsles"
+    },
+    {
+        "cardCode": "05MT003",
+        "name": "Pantheon",
+        "region": "Targon"
+    },
+    {
+        "cardCode": "05DE009",
+        "name": "Galio",
+        "region": "Demacia"
+    },
+    {
+        "cardCode": "06RU025",
+        "name": "Evelynn",
+        "region": "Runeterra"
+    },
+    {
+        "cardCode": "06RU001",
+        "name": "Bard",
+        "region": "Runeterra"
+    },
+    {
+        "cardCode": "06RU002",
+        "name": "Jhin",
+        "region": "Runeterra"
+    },
+    {
+        "cardCode": "06BW006",
+        "name": "Illaoi",
+        "region": "Bilgewater"
+    },
+    {
+        "cardCode": "06NX012T7",
+        "name": "Annie",
+        "region": "Noxus"
+    },
+    {
+        "cardCode": "06SH009",
+        "name": "Kai'Sa",
+        "region": "Shurima"
+    },
+    {
+        "cardCode": "06SI012",
+        "name": "Gwen",
+        "region": "ShadowIsles"
+    }
+]

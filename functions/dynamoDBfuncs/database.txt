@@ -1,0 +1,77 @@
+Structure of Data
+
+Needs:
+    1. Search for all games associated to a player (assuming they are all seasonal games)
+    2. Only save seasonal games to the database
+    3. Determine outcome for the specific player (win/lose)
+    4. Determine how many games were in a specific Bo3 (did they win 2/1, 2/0?)
+    5. Know what regions were played by the player in their deck
+    6. Figure out what 3 decks are being used by the player for the duration of the seasonal
+    7. Track the day of the game
+    8. Track the W/L rate of each specific deck
+    9. NO DUPLICATE GAMES
+
+Example Data:
+        "owner_comb": "Otzo NA1 Americas",
+        "owner_region": "Americas",
+        "owner_name": "Otzo",
+        "owner_tag": "NA1",
+        "owner_puuid": "aoijhsdiohpjh...",
+        "owner_deck_code": "aoisdjghoair...",
+        "owner_region_one": "faction_Demacia_Name",
+        "owner_region_two": "faction_Shurima_Name",
+
+        "opp_comb": "EvilGuy NA1",
+        "opp_name": "EvilGuy",
+        "opp_tag": "NA1",
+        "opp_puuid": "aoijhsdiohpjh...",
+        "opp_deck_code": "aoisdjghoair...",
+        "opp_region_one": "faction_Demacia_Name",
+        "opp_region_two": "faction_Shurima_Name",
+
+        "game_outcome": "win",
+
+        "game_mode": "Constructed",
+        "game_type": "Ranked",
+        "game_start_time_utc": "2022-07-30T05:39:41.7704820+00:00",
+
+        "match_game": 1
+        "match_id": "a1325sd-adsf4..."
+
+Notes:
+    1. Search by: "owner_comb"
+        Build by combining the game owners name and tag together so they are unique
+    2. Calculate "match_game"
+        When pulling new games, figure out if it's game 1, 2, or 3 of a match
+    3. Avoid duplicates
+        Do not save the game if the "match_id" already exsists in db
+
+
+        // Set the parameters
+export const paramsTest = {
+    TableName: "Games",
+    Item: {
+        owner_comb: { S: "Otzo NA1 Americas" }, //partition key
+        owner_region: { S: "Americas" },
+        game_start_time_utc: { S: "2022-07-30T05:39:41.7704820+00:00" }, //sort key
+        owner_name: { S: "Otzo" },
+        owner_tag: { S: "NA1" },
+        owner_puuid: { S: "aoijhsdiohpjh..." },
+        owner_deck_code: { S: "aoisdjghoair..." },
+        owner_region_one: { S: "faction_Demacia_Name" },
+        owner_region_two: { S: "faction_Shurima_Name" },
+        opp_comb: { S: "EvilGuy NA1" },
+        opp_name: { S: "EvilGuy" },
+        opp_tag: { S: "NA1" },
+        opp_puuid: { S: "aoijhsdiohpjh..." },
+        opp_deck_code: { S: "aoisdjghoair..." },
+        opp_region_one: { S: "faction_Demacia_Name" },
+        opp_region_two: { S: "faction_Shurima_Name" },
+        game_outcome: { S: "win" },
+        game_mode: { S: "Constructed" },
+        game_type: { S: "Ranked" },
+        match_game: { N: "1" },
+        match_id: { S: "a1325sd-adsf4..." },
+    },
+};
+

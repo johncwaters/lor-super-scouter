@@ -1,2 +1,2 @@
-# LoR-Player-Stats-Tracker
+# lor-super-scouter
  

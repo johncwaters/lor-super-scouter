@@ -1,0 +1,29 @@
+Supabase provides unlimited API calls for querying data with a limited amount of storage
+This allows us to use it without worrying about running up a bill
+Downside is the limited amount of storage which will require a flush often
+
+// EXAMPLE
+match_history = { //table
+        id: 1,
+        created_at: "timestamp",
+        owner_comb: "Otzo NA1 Americas", // key
+
+        //player info
+        owner_name: "Otzo",
+        owner_tag: "NA1",
+        owner_puuid: "aoijhsdiohpjh...",
+        owner_region: "Americas",
+
+        //game info
+        game_start_time_utc: "2022-07-30:39:41.7704820+00:00",
+        game_mode: "Constructed", //bo3?
+        game_type: "Ranked", //seasonal?
+        game_result: "win",
+
+        //deck
+        deck_code: "aoisdjghoair...", //sort deck code alphabetically for consistency 
+        deck_region_one: "faction_Demacia_Name",
+        deck_region_two: "faction_Shurima_Name",
+
+    }
+};

@@ -1,0 +1,94 @@
+<html data-theme="night" lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+
+    <meta name="keywords" content="Legends of Runeterra, Scouter, Super, Tournament, Scoreboard">
+    <meta name="description" content="View Legends of Runeterra seasonal tournament results in realtime.">
+    <meta name="author" content="John 'OtzoLive' Waters">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="../imgs/icons/icons8-binocular-creatype-two-colour-16.png">
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+
+<body>
+    <!-- Header for site goes here -->
+    <div class="navbar bg-base-300">
+        <a onclick="window.location.href='/';" class="btn btn-ghost normal-case text-xl">
+            <img src="../imgs/icons/icons8-binocular-creatype-white-96.png" class="h-12 w-12">
+            LoR SuperScouter</a>
+    </div>
+
+    <!-- Container -->
+    <div class="container mx-auto w-11/12 justify-center flex flex-col space-y-4 pt-4 pb-20">
+        <!-- LEADERBOARD -->
+        <div class="overflow-x-auto">
+            <table class="table table-zebra w-full">
+                <!-- head -->
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Player</th>
+                        <th>Decks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- row 1 -->
+                    <tr>
+                        <th>1</th>
+                        <td>Cy Ganderton</td>
+                        <td>Quality Control Specialist</td>
+                    </tr>
+                    <!-- row 2 -->
+                    <tr>
+                        <th>2</th>
+                        <td>Cy Ganderton</td>
+                        <td>Quality Control Specialist</td>
+                    </tr>
+                    <!-- row 3 -->
+                    <tr>
+                        <th>3</th>
+                        <td>Cy Ganderton</td>
+                        <td>Quality Control Specialist</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Navbar goes here -->
+    <div class="btm-nav">
+        <!-- HOME -->
+        <button onclick="window.location.href='/';" class="text-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+        </button>
+        <!-- LEADERBOARD -->
+        <button onclick="window.location.href='/leaderboard';" class="text-primary active">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+        </button>
+        <!-- ABOUT -->
+        <button onclick="window.location.href='/about';" class="text-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="../js/load-full-leaderboard.js"></script>
+</body>
+
+</html>

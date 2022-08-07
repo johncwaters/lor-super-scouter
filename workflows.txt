@@ -21,3 +21,8 @@ Gathering Today's Seasonal Results
                 //"AM" = americas
                 //"EU" = europe
                 //"APAC" = apac
+
+
+Collect All Top Users Decks
+    1. collectTopUsers
+    2. collectUserDecks

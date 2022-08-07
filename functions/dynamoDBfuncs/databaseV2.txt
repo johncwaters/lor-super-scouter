@@ -1,0 +1,53 @@
+To make the API usable on the front end, more work needs done to make it accessible.
+It's not realistic to call ALL games each time we want to pull the top 10 players
+The Database should store the running tally instead of each game
+
+// Grab games and extract data
+// Update the players specific row with updated information
+    // To avoid duplicates, this can be done on a quick schedule
+    // Note: Only make an update db call if there is something to add 
+
+// Set the parameters
+    export const paramsTest = {
+        TableName: "MATCH-HISTORY",
+        Item: {
+            owner_comb: { S: "Otzo NA1 Americas" }, //partition key
+            
+            //player info
+            owner_name: { S: "Otzo" },
+            owner_tag: { S: "NA1" },
+            owner_puuid: { S: "aoijhsdiohpjh..." },
+            owner_region: { S: "Americas" },
+
+            //game info
+            game_start_time_utc: { S: "2022-07-30T05:39:41.7704820+00:00" },
+            game_mode: { S: "Constructed" }, //bo3?
+            game_type: { S: "Ranked" }, //seasonal?
+
+            //deck 1
+            deck_one_code: { S: "aoisdjghoair..." },
+            deck_one_region_one: { S: "faction_Demacia_Name" },
+            deck_one_region_two: { S: "faction_Shurima_Name" },
+            deck_one_wins: { N: "1" },
+            deck_one_loses: { N: "1" },
+
+            //deck 2
+            deck_two_code: { S: "aoisdjghoair..." },
+            deck_two_region_one: { S: "faction_Demacia_Name" },
+            deck_two_region_two: { S: "faction_Shurima_Name" },
+            deck_two_wins: { N: "1" },
+            deck_two_loses: { N: "1" },
+
+            //deck 3
+            deck_three_code: { S: "aoisdjghoair..." },
+            deck_three_region_one: { S: "faction_Demacia_Name" },
+            deck_three_region_two: { S: "faction_Shurima_Name" },
+            deck_three_wins: { N: "1" },
+            deck_three_loses: { N: "1" },
+            
+            //overall stats
+            match_wins: { N: "1" },
+            match_loses: { N: "1" },
+            
+        },
+    };
