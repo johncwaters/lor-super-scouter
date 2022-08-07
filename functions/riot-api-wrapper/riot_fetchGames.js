@@ -6,7 +6,7 @@ import { supa_read_recent } from '../supabasedb/supa_read_recent.js';
 var lor = new Lor(process.env.RIOT_API_KEY);
 
 
-/**  NOTES */
+/**  --NOTES--  */
 //Need a better way of validating if the game was part of the tournament or not
 //ex tracking the person they play against (opponent) and checking if they are part of the tourny or not
 //If they are, it's likely part of the tourny. If not, skip it.
