@@ -90,7 +90,7 @@ const bree = new Bree({
         }
     ]
 })
-bree.start()
+//bree.start()
 
 
 
@@ -350,7 +350,7 @@ var players = [
 ]
 //make the loop wait
 const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms))
-
+/*
 let i = 0; //DEBUG start from the middle
 for (i in players) {
     //if the calls are too fast then riot freakes out
@@ -358,3 +358,4 @@ for (i in players) {
     await wait(7000)//1000 = 1 second
 }
 
+*/
